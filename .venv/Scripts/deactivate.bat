@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @set VIRTUAL_ENV=
 @set VIRTUAL_ENV_PROMPT=
 
@@ -16,3 +17,23 @@
     @set "PATH=%_OLD_VIRTUAL_PATH%"
     @set _OLD_VIRTUAL_PATH=
 :ENDIFVPATH
+=======
+@set VIRTUAL_ENV=
+@set VIRTUAL_ENV_PROMPT=
+
+@REM Don't use () to avoid problems with them in %PATH%
+@if not defined _OLD_VIRTUAL_PROMPT @goto ENDIFVPROMPT
+    @set "PROMPT=%_OLD_VIRTUAL_PROMPT%"
+    @set _OLD_VIRTUAL_PROMPT=
+:ENDIFVPROMPT
+
+@if not defined _OLD_VIRTUAL_PYTHONHOME @goto ENDIFVHOME
+    @set "PYTHONHOME=%_OLD_VIRTUAL_PYTHONHOME%"
+    @set _OLD_VIRTUAL_PYTHONHOME=
+:ENDIFVHOME
+
+@if not defined _OLD_VIRTUAL_PATH @goto ENDIFVPATH
+    @set "PATH=%_OLD_VIRTUAL_PATH%"
+    @set _OLD_VIRTUAL_PATH=
+:ENDIFVPATH
+>>>>>>> d60bcc8f03c872d6923f63c8879ba3829f095f3b
